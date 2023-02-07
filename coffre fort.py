@@ -10,7 +10,7 @@ def decomposer(nb):
     m=int(nb/1000)%10
     return(m,c,d,u)
 '''
-programme principal qui devine la code
+programme principal qui devine le code
 '''
 for nb in range(1000,9999):
     (m,c,d,u)=decomposer(nb)
